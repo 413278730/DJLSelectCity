@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol ViewControllerDelegate <NSObject>
+
+- (void)selectCity:(NSString*)city;
+
+@end
+
 @interface ViewController : UIViewController
 
+@property (nonatomic,assign) id<ViewControllerDelegate> delegate;
 
 @end
 

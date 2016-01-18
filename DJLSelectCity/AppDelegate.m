@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  DJLSelectCity
+//  SelectCity
 //
 //  Created by 邓金龙 on 16/1/18.
 //  Copyright © 2016年 邓金龙. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 

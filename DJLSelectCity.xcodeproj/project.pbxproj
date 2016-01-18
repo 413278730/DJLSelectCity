@@ -15,6 +15,12 @@
 		981E4EE81C4C962E00DE04CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981E4EE61C4C962E00DE04CA /* LaunchScreen.storyboard */; };
 		981E4EF31C4C962E00DE04CA /* DJLSelectCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E4EF21C4C962E00DE04CA /* DJLSelectCityTests.m */; };
 		981E4EFE1C4C962E00DE04CA /* DJLSelectCityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E4EFD1C4C962E00DE04CA /* DJLSelectCityUITests.m */; };
+		981E4F101C4C963B00DE04CA /* statusBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 981E4F0F1C4C963B00DE04CA /* statusBar.png */; };
+		981E4F121C4C963F00DE04CA /* citydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 981E4F111C4C963F00DE04CA /* citydict.plist */; };
+		981E4F161C4C96C300DE04CA /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E4F151C4C96C300DE04CA /* MBProgressHUD.m */; };
+		981E4F1C1C4C9A0C00DE04CA /* DJLLocateHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E4F1B1C4C9A0C00DE04CA /* DJLLocateHeaderView.m */; };
+		981E4F1F1C4C9A9100DE04CA /* DJLLocateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E4F1E1C4C9A9100DE04CA /* DJLLocateCell.m */; };
+		981E4F221C4CBF1800DE04CA /* DJLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E4F211C4CBF1800DE04CA /* DJLHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,16 @@
 		981E4EF91C4C962E00DE04CA /* DJLSelectCityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJLSelectCityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		981E4EFD1C4C962E00DE04CA /* DJLSelectCityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJLSelectCityUITests.m; sourceTree = "<group>"; };
 		981E4EFF1C4C962E00DE04CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981E4F0F1C4C963B00DE04CA /* statusBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusBar.png; sourceTree = "<group>"; };
+		981E4F111C4C963F00DE04CA /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
+		981E4F141C4C96C300DE04CA /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		981E4F151C4C96C300DE04CA /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		981E4F1A1C4C9A0C00DE04CA /* DJLLocateHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJLLocateHeaderView.h; sourceTree = "<group>"; };
+		981E4F1B1C4C9A0C00DE04CA /* DJLLocateHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJLLocateHeaderView.m; sourceTree = "<group>"; };
+		981E4F1D1C4C9A9100DE04CA /* DJLLocateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJLLocateCell.h; sourceTree = "<group>"; };
+		981E4F1E1C4C9A9100DE04CA /* DJLLocateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJLLocateCell.m; sourceTree = "<group>"; };
+		981E4F201C4CBF1800DE04CA /* DJLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJLHomeViewController.h; sourceTree = "<group>"; };
+		981E4F211C4CBF1800DE04CA /* DJLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJLHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,8 @@
 		981E4ECC1C4C962E00DE04CA = {
 			isa = PBXGroup;
 			children = (
+				981E4F131C4C96C300DE04CA /* ProgressHud */,
+				981E4F0F1C4C963B00DE04CA /* statusBar.png */,
 				981E4ED71C4C962E00DE04CA /* DJLSelectCity */,
 				981E4EF11C4C962E00DE04CA /* DJLSelectCityTests */,
 				981E4EFC1C4C962E00DE04CA /* DJLSelectCityUITests */,
@@ -103,8 +121,14 @@
 			children = (
 				981E4EDB1C4C962E00DE04CA /* AppDelegate.h */,
 				981E4EDC1C4C962E00DE04CA /* AppDelegate.m */,
+				981E4F201C4CBF1800DE04CA /* DJLHomeViewController.h */,
+				981E4F211C4CBF1800DE04CA /* DJLHomeViewController.m */,
 				981E4EDE1C4C962E00DE04CA /* ViewController.h */,
 				981E4EDF1C4C962E00DE04CA /* ViewController.m */,
+				981E4F1A1C4C9A0C00DE04CA /* DJLLocateHeaderView.h */,
+				981E4F1B1C4C9A0C00DE04CA /* DJLLocateHeaderView.m */,
+				981E4F1D1C4C9A9100DE04CA /* DJLLocateCell.h */,
+				981E4F1E1C4C9A9100DE04CA /* DJLLocateCell.m */,
 				981E4EE11C4C962E00DE04CA /* Main.storyboard */,
 				981E4EE41C4C962E00DE04CA /* Assets.xcassets */,
 				981E4EE61C4C962E00DE04CA /* LaunchScreen.storyboard */,
@@ -117,6 +141,7 @@
 		981E4ED81C4C962E00DE04CA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				981E4F111C4C963F00DE04CA /* citydict.plist */,
 				981E4ED91C4C962E00DE04CA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +163,15 @@
 				981E4EFF1C4C962E00DE04CA /* Info.plist */,
 			);
 			path = DJLSelectCityUITests;
+			sourceTree = "<group>";
+		};
+		981E4F131C4C96C300DE04CA /* ProgressHud */ = {
+			isa = PBXGroup;
+			children = (
+				981E4F141C4C96C300DE04CA /* MBProgressHUD.h */,
+				981E4F151C4C96C300DE04CA /* MBProgressHUD.m */,
+			);
+			path = ProgressHud;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +280,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981E4F121C4C963F00DE04CA /* citydict.plist in Resources */,
 				981E4EE81C4C962E00DE04CA /* LaunchScreen.storyboard in Resources */,
+				981E4F101C4C963B00DE04CA /* statusBar.png in Resources */,
 				981E4EE51C4C962E00DE04CA /* Assets.xcassets in Resources */,
 				981E4EE31C4C962E00DE04CA /* Main.storyboard in Resources */,
 			);
@@ -276,6 +312,10 @@
 				981E4EE01C4C962E00DE04CA /* ViewController.m in Sources */,
 				981E4EDD1C4C962E00DE04CA /* AppDelegate.m in Sources */,
 				981E4EDA1C4C962E00DE04CA /* main.m in Sources */,
+				981E4F1C1C4C9A0C00DE04CA /* DJLLocateHeaderView.m in Sources */,
+				981E4F1F1C4C9A9100DE04CA /* DJLLocateCell.m in Sources */,
+				981E4F221C4CBF1800DE04CA /* DJLHomeViewController.m in Sources */,
+				981E4F161C4C96C300DE04CA /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +541,7 @@
 				981E4F041C4C962E00DE04CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		981E4F051C4C962E00DE04CA /* Build configuration list for PBXNativeTarget "DJLSelectCityTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +550,7 @@
 				981E4F071C4C962E00DE04CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		981E4F081C4C962E00DE04CA /* Build configuration list for PBXNativeTarget "DJLSelectCityUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +559,7 @@
 				981E4F0A1C4C962E00DE04CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
